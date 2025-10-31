@@ -10,7 +10,7 @@ buttons.forEach(button => {
         if (button.classList.contains('operator')) {
             if (buttonValue === '=') {
                 try {
-                    currentInput = eval(currentInput); // Осторожно!
+                    currentInput = eval(currentInput); 
                     display.value = currentInput;
                 } catch (error) {
                     display.value = 'Error';
